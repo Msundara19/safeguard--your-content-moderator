@@ -1,0 +1,22 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "approach": "zero-shot",
+  "test_size": 5623,
+  "accuracy": 0.5550417926373822,
+  "f1_score": 0.5375231053604437,
+  "precision_unsafe": 0.694696607740086,
+  "recall_unsafe": 0.43834790473319263,
+  "confusion_matrix": [
+    [
+      1667,
+      639
+    ],
+    [
+      1863,
+      1454
+    ]
+  ],
+  "avg_confidence": 0.6638591632117119,
+  "false_positive_rate": 0.27710320901994795,
+  "false_negative_rate": 0.5616520952668074
+}
